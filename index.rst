@@ -5,13 +5,14 @@
 
 Welcome to fly drill's documentation!
 =====================================
-Hello world
+Hello world haha
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Contents:
 
+   
    Options/justlogic
    Options/justcode
 
