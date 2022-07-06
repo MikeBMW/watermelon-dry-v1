@@ -8,8 +8,11 @@ Key Goals
 options
 =========
 
-CodeMaster
+代码
 ----------
+这是代码::
+    def function():
+        print("haha")    
 
 Robot Turtles
 ----------------
