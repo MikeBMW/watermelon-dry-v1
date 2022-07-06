@@ -10,7 +10,7 @@ Hello world 你好世界,第二次！
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Contents:
+   :caption: 目录:
 
    
    Options/justlogic
