@@ -37,4 +37,4 @@ Just Code
 图片
 ~~~~~~~~~~~~
 这是一张图片
-.. image:: /images/西瓜1号.png
+.. image:: /images/西瓜1号.jpg
