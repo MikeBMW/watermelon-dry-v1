@@ -25,6 +25,7 @@ see :ref:`引用 <linkpoint>`
    
    Udacity/SelfDrivingCarEngineer/Computer
    Udacity/SelfDrivingCarEngineer/Sensor
+   Udacity/SelfDrivingCarEngineer/Path
 
 
 
