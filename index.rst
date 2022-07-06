@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to fly drill's documentation!
-=====================================
-Hello world haha Daisy I love you! again
+Welcome to fly drill's documentation
+======================================================
+Hello world 你好世界！
 
 .. toctree::
    :maxdepth: 2
