@@ -26,9 +26,3 @@ Hello world 你好世界,第二次！
    Udacity/justcode
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
