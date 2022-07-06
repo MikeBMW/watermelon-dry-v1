@@ -10,11 +10,20 @@ Hello world 你好世界,第二次！
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 目录:
+   :caption: Options:
 
    
    Options/justlogic
    Options/justcode
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Udacity:
+
+   
+   Udacity/justlogic
+   Udacity/justcode
 
 
 Indices and tables
