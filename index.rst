@@ -5,7 +5,7 @@
 
 Welcome to fly drill's documentation
 ======================================================
-Hello world 你好世界！
+Hello world 你好世界,第二次！
 
 .. toctree::
    :maxdepth: 2
