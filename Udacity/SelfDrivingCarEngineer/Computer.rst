@@ -1,6 +1,6 @@
 
-Just Code
-=============
+Computer Vision and Deep Learning
+=====================================
 
 Key Goals
 ------------------

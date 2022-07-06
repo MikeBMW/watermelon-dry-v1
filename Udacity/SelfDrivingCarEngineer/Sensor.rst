@@ -1,6 +1,6 @@
 
-Just Logic
-+++++++++++
+Sensor Fusion, Localization, and Control
++++++++++++++++++++++++++++++++++++++++++
 
 Key Goals
 =======================
