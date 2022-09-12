@@ -6,7 +6,7 @@
 Welcome to fly drill's documentation
 ======================================================
 Hello world 你好世界,第三次！
-see :ref:`引用 <linkpoint>`
+
 
 .. toctree::
    :maxdepth: 2
@@ -26,6 +26,15 @@ see :ref:`引用 <linkpoint>`
    Udacity/SelfDrivingCarEngineer/Computer
    Udacity/SelfDrivingCarEngineer/Sensor
    Udacity/SelfDrivingCarEngineer/Path
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 青龙D-X:
+
+   
+   青龙D-X/NeuSAR
+   青龙D-X/SafetyOS
 
 
 
