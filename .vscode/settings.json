@@ -1,4 +1,4 @@
 {
     "esbonio.sphinx.confDir": "",
-    "restructuredtext.syntaxHighlighting.disabled": false
+    "restructuredtext.syntaxHighlighting.disabled": true
 }
