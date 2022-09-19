@@ -12,7 +12,8 @@
 数据链路包括车端、云端、开发端、台架和车辆端、
 
 .. image:: /images/数据链路架构.png
-.. image:: /images/X9U.png
+
+
 
 
 功能架构
@@ -56,62 +57,12 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 拓扑包括DDS、CAN、XCP等通讯协议
 
-.. image:: /images/总线通讯拓扑.png
+.. image:: /images/总线通讯拓扑.png  
 
-X9U硬件接口
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-SSA SSB硬件接口定义见下图
-
-.. image:: /images/X9U硬件.png
-
-X9U SSA
-
-* 2 x CAN MRR Radar
-* 3 x GPIO_TC397
-* SPI_TC397
-* SEM_FAULT
-* DDR 4G
-* EMMC 64G
-* QSPI 8M Norflash
-* AP1 RGMII ETH SW
-* SMI ETH SW
-* **Mipi CSI J5**
-* **PCIE J5**
-* **2 x GPIO J5**
-* Power
-* 2 x GPIO USS 
-* 2 x SPI USS
-* GPI PPS
-* USB1
-* JTAG
-* Boot pin
-* 3 x UART debug
-* 2 x UART to SSA 
-
-X9U SSB
-
-* SPI_TC397
-* 3 x GPIO_TC397
-* SEM_FAULT
-* AP1 RGMII ETH SW
-* 3 x CAN MRR Radar
-* DDR 4G
-* EMMC 64G
-* QSPI 8M Norflash
-* GP1
-* GP2
-* **SPI IMU**
-* **UART IMU**
-* **3 x GPIO IMU**
-* **UART F9K**
-* GPI PPS
-* USB1
-* JTAG
-* Boot pin
-* 3 x UART debug
-* 2 x UART to SSA 
-  
-
+.. note:: 
+    * 2核 BPU AI引擎,高性能等效算力128 TOPS
+    * 八核 Arm® Cortex® -A55 CPU集群
+    * CV引擎,双核DSP,双核ISP,强力Codec
 
 开发调试
 ------------------------------------------------------------------------------------------------
@@ -119,15 +70,30 @@ X9U SSB
 XCP协议
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: /images/XCP主从节点.png
+.. image:: /images/XCP_Drive.png
+
 车端
 ------------------------------------------------------------------------------------------------
 
-xxx
+ROS RVIZ Gazebo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/ROS_RVIZ.png
+.. image:: /images/ROS_RVIZ_V.png
+.. image:: /images/ROS_Gazebo.png
+
 
 云端
 ------------------------------------------------------------------------------------------------
 
-xxx
+A7 数据中心
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+开发责任划分
+------------------------------------------------------------------------------------------------
+
+*  ADAS 各系统 提出需求 数据注入的方式 有限场景的XCP标定 
+*  L4支持 ROS 可视化显示 XCP协议实现
 

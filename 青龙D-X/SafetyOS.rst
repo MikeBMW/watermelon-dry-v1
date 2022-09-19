@@ -52,3 +52,81 @@ Linux特征
 * 支持动态加载内核模块。
 
 
+QNX资料
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. image:: /images/QNX功能安全与非功能安全区别.png
+.. image:: /images/QNX功能安全产品全景.png
+.. image:: /images/QNX座舱智驾一体化.png
+.. image:: /images/QNX软件平台全景.png
+
+X9U BSP
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. image:: /images/X9U_BSP.png
+
+
+X9U功能及硬件接口
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+X9U 功能分布（待更新）
+
+.. image:: /images/X9U.png
+
+SSA SSB硬件接口定义见下图
+
+.. image:: /images/X9U硬件.png
+
+X9U SSA
+
+* 2 x CAN MRR Radar
+* 3 x GPIO_TC397
+* SPI_TC397
+* SEM_FAULT
+* DDR 4G
+* EMMC 64G
+* QSPI 8M Norflash
+* AP1 RGMII ETH SW
+* SMI ETH SW
+* **Mipi CSI J5**
+* **PCIE J5**
+* **2 x GPIO J5**
+* Power
+* 2 x GPIO USS 
+* 2 x SPI USS
+* GPI PPS
+* USB1
+* JTAG
+* Boot pin
+* 3 x UART debug
+* 2 x UART to SSA 
+
+X9U SSB
+
+* SPI_TC397
+* 3 x GPIO_TC397
+* SEM_FAULT
+* AP1 RGMII ETH SW
+* 3 x CAN MRR Radar
+* DDR 4G
+* EMMC 64G
+* QSPI 8M Norflash
+* GP1
+* GP2
+* **SPI IMU**
+* **UART IMU**
+* **3 x GPIO IMU**
+* **UART F9K**
+* GPI PPS
+* USB1
+* JTAG
+* Boot pin
+* 3 x UART debug
+* 2 x UART to SSA 
+
+QNX切换计划
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. image:: /images/总线通讯拓扑.png
+
+* 切换时间 v0.8?
+* 开发资源 ADAS? Neusar?
+* 能力建设 多种配置方案 提高市场竞争力
+
+
