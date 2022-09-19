@@ -2,11 +2,116 @@
 ======================================================================================================
 
 
-系统架构
+系统方案
 ------------------------------------------------------------------------------------------------
+系统方案包括数据链路架构、功能架构、总线通讯拓扑等
 
-xxx
+
+数据链路架构
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+数据链路包括车端、云端、开发端、台架和车辆端、
+
+.. image:: /images/数据链路架构.png
+.. image:: /images/X9U.png
+
+
+功能架构
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+功能架构包括感知融合、地图定位、规划控制、系统车辆等。
+
+.. image:: /images/功能架构.png
+
+
+功能分布
+
+.. image:: /images/功能分布.png
+
+感知
+
+.. image:: /images/感知.png
+
+高精地图定位
+
+.. image:: /images/高精地图1.png
+.. image:: /images/高精地图2.png
+.. image:: /images/高精地图3.png
+
+规划决策
+
+.. image:: /images/规划决策1.png
+.. image:: /images/规划决策2.png
+.. image:: /images/规划决策3.png
+
+
+控制
+
+.. image:: /images/控制.png
+
+系统监管
+
+.. image:: /images/系统监管.png
+
+
+总线通讯拓扑
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+拓扑包括DDS、CAN、XCP等通讯协议
+
+.. image:: /images/总线通讯拓扑.png
+
+X9U硬件接口
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SSA SSB硬件接口定义见下图
+
+.. image:: /images/X9U硬件.png
+
+X9U SSA
+
+* 2 x CAN MRR Radar
+* 3 x GPIO_TC397
+* SPI_TC397
+* SEM_FAULT
+* DDR 4G
+* EMMC 64G
+* QSPI 8M Norflash
+* AP1 RGMII ETH SW
+* SMI ETH SW
+* **Mipi CSI J5**
+* **PCIE J5**
+* **2 x GPIO J5**
+* Power
+* 2 x GPIO USS 
+* 2 x SPI USS
+* GPI PPS
+* USB1
+* JTAG
+* Boot pin
+* 3 x UART debug
+* 2 x UART to SSA 
+
+X9U SSB
+
+* SPI_TC397
+* 3 x GPIO_TC397
+* SEM_FAULT
+* AP1 RGMII ETH SW
+* 3 x CAN MRR Radar
+* DDR 4G
+* EMMC 64G
+* QSPI 8M Norflash
+* GP1
+* GP2
+* **SPI IMU**
+* **UART IMU**
+* **3 x GPIO IMU**
+* **UART F9K**
+* GPI PPS
+* USB1
+* JTAG
+* Boot pin
+* 3 x UART debug
+* 2 x UART to SSA 
+  
+
 
 开发调试
 ------------------------------------------------------------------------------------------------
