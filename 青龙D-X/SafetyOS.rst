@@ -139,6 +139,9 @@ QNX切换计划
 双操作系统配置方案 QNX vs Linux
 
 .. image:: /images/OS配置.png
+
+时间表
+
 .. image:: /images/os配置计划.png
 
 
