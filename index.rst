@@ -21,6 +21,7 @@
    青龙D-X/NeuSAR
    青龙D-X/SafetyOS
    青龙D-X/ToolChain
+   青龙D-X/J5算力
 
 
 .. toctree::
