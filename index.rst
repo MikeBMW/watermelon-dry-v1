@@ -23,6 +23,8 @@
    青龙D-X/ToolChain
    青龙D-X/J5算力
    青龙D-X/Gateway
+   青龙D-X/VW_OS
+   青龙D-X/NeuAutoOS
 
 
 .. toctree::
