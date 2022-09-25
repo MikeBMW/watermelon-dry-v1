@@ -16,3 +16,8 @@ https://www.youtube.com/watch?v=rgh4qCFFOhw
 .. image:: /images/SA8.png
 .. image:: /images/SA9.png
 .. image:: /images/SA10.png
+
+https://www.infoq.com/presentations/uber-atg/
+
+.. image:: /images/ATG软件架构.png
+
