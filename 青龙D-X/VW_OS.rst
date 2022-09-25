@@ -3,6 +3,8 @@ VW.OS
 
 背景介绍
 -----------------------------------------------------------------------------------------
+https://cdn.vector.com/cms/content/events/2017/vAES17/vAES17_01_Ethernet-Adaptive-AUTOSAR-at-VW_Krieger_Wille.pdf
+
 2019 年 2 月大众成立新软件部门Digital Car;致力于智能汽车云服务;并任命曾带领团队成功研发大众 MEB 平台的 Christian Senger 作为部门负责人。 
 2019 年 4 月大众加入开源操作系统 AGL 联盟以开源方式打造通用操作系统。同年 6 月大众准备联合 5,000 名数字专家组成 Car.Software 部门
 专注于软件操作系统“VW.OS”研发加快数字化转型。 大众宣称 ID.3 将成为首款搭载 VW.OS 的量产车型基于自有操作系统 VW.OS 的车型
@@ -11,7 +13,7 @@ ID.3将具备 L3 自动驾驶能力可以在高速公路和城市拥堵路段进
 
 软件架构
 -----------------------------------------------------------------------------------------
-大众更加注重功能安全、框架标准化采用多个底层操作系统打造一体式平台。 大众通过打造一个可运行多个底层系统 如 Linux、 QNX、 VxWorks 的 
+大众更加注重功能安全、框架标准化.采用多个底层操作系统打造 ``一体式平台`` 。 大众通过打造一个可运行多个底层系统 如 Linux、 QNX、 VxWorks 的 
 VW.OS 平台简化座舱和自动驾驶的交互技术。 大众将建立 Volkswagen Automotive Cloud 全球专属云服务后台 以实现传统大众汽车向全新智能软件产品
 的转变。
 
@@ -30,6 +32,9 @@ VW.OS 平台简化座舱和自动驾驶的交互技术。 大众将建立 Volksw
 .. image:: /images/vwos.png
 .. image:: /images/vwos1.png
 .. image:: /images/vwos2.png
+.. image:: /images/vwos7.png
+.. image:: /images/vwos8.png
+.. image:: /images/vwos9.png
 
 
 软硬件分离解耦
