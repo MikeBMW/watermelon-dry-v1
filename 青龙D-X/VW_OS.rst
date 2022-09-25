@@ -58,3 +58,10 @@ ODP One DigitalPlatform ODP 平台有效确保了大众汽车的外部合作伙�
 路线图
 -----------------------------------------------------------------------------------------
 .. image:: /images/vwos6.png
+
+QNX虚拟化技术
+-----------------------------------------------------------------------------------------
+https://blackberry.qnx.com/content/dam/qnx/products/hypervisor/hypervisorAutomotive-ProductBrief.pdf
+
+.. image:: /images/QNX虚拟化.png
+.. image:: /images/QNX虚拟化1.png
