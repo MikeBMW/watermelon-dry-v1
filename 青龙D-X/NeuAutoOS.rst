@@ -21,3 +21,7 @@ https://www.infoq.com/presentations/uber-atg/
 
 .. image:: /images/ATG软件架构.png
 
+type 1 vs type 2 hypervisors
+---------------------------------------------------------------------------------------
+.. image:: /images/type1hypervisors.png
+
