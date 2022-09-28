@@ -25,3 +25,10 @@ type 1 vs type 2 hypervisors
 ---------------------------------------------------------------------------------------
 .. image:: /images/type1hypervisors.png
 
+.. image:: /images/spaceos1.png
+.. image:: /images/spaceos2.png
+.. image:: /images/spaceos3.png
+.. image:: /images/spaceos4.png
+.. image:: /images/spaceos5.png
+.. image:: /images/spaceos6.png
+
