@@ -27,6 +27,8 @@
    青龙D-X/Gateway
    青龙D-X/VW_OS
    青龙D-X/NeuAutoOS
+   青龙D-X/BookWiki
+   青龙D-X/TestAutomation
 
 
 .. toctree::
