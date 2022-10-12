@@ -130,3 +130,66 @@ A7 数据中心
 *  探索ROS集成XCP驱动的方案, 需要NeuSAR支持, 兼容CANape;  --> Neusar   
 *  软件架构接口和数据流设计，确保与平台工具适配；  -->高学新   持续进行
 *  PSM制定技术平台的开发计划; 明确工作的内容,范围,拆解等; 制定ADS域控并行产品交汇点计划,确保交汇点之后平台工具可用； -->高亮 项目待确认
+
+
+元数据
+------------------------------------------------------------------------------------------------
+元数据（Metadata），又称中介数据、中继数据，为描述数据的数据（data about data），主要是描述数据属性（property）的信息，用来支持如指示存储位置、历史数据、资源查找、文件记录等功能。
+
+数据 ： ``175``
+
+.. image:: /images/元数据.png
+
+
+总线拓扑
+------------------------------------------------------------------------------------------------
+
+.. image:: /images/总线拓扑2.png
+    
+
+代码 ROS Client Library
+------------------------------------------------------------------------------------------------
+rclcomm::
+
+    class rclcomm :public QThread
+    {
+        Q_OBJECT
+    public:
+        rclcomm();
+        void run() override;
+    private:
+        void recv_callback(const std_msgs::msg::Int32::SharedPtr msg);
+    private:
+        rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr _publisher;
+        rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr _subscription;
+        std::shared_ptr<rclcpp::Node> node;
+    signals:
+        void emitTopicData(QString);
+    };
+
+    rclcomm::rclcomm()
+    {
+        int argc=0;
+        char **argv=NULL;
+        rclcpp::init(argc,argv);
+        node=rclcpp::Node::make_shared("ros2_qt_demo");
+        _publisher = node->create_publisher<std_msgs::msg::Int32>("ros2_qt_dmeo_publish",10);
+        _subscription = node->create_subscription<std_msgs::msg::Int32>("ros2_qt_dmeo_publish",10,std::bind(&rclcomm::recv_callback,this,std::placeholders::_1));
+    }
+    void rclcomm::run(){
+        std_msgs::msg::Int32 pub_msg;
+        pub_msg.data=0;
+        rclcpp::WallRate loop_rate(1);
+        while (rclcpp::ok()) {
+        _publisher->publish(pub_msg);
+        pub_msg.data++;
+        rclcpp::spin_some(node);
+        loop_rate.sleep();
+        }
+        rclcpp::shutdown();
+    }
+    void rclcomm::recv_callback(const std_msgs::msg::Int32::SharedPtr msg){
+        qDebug()<<msg->data;
+        emit emitTopicData("i am listen from topic:" +QString::fromStdString(std::to_string(msg->data)));
+    }  
+

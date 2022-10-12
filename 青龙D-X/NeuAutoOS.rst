@@ -32,3 +32,7 @@ type 1 vs type 2 hypervisors
 .. image:: /images/spaceos5.png
 .. image:: /images/spaceos6.png
 
+POC方案
+---------------------------------------------------------------------------------------
+.. image:: /images/spaceos7.png
+

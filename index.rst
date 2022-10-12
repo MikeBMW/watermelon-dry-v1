@@ -29,6 +29,8 @@
    青龙D-X/NeuAutoOS
    青龙D-X/BookWiki
    青龙D-X/TestAutomation
+   青龙D-X/WuhanReach
+   青龙D-X/BluePrint
 
 
 .. toctree::
