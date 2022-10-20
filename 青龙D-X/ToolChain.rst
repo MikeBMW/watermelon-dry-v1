@@ -190,3 +190,10 @@ rclcomm::
         emit emitTopicData("i am listen from topic:" +QString::fromStdString(std::to_string(msg->data)));
     }  
 
+
+
+
+
+
+
+

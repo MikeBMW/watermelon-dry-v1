@@ -31,6 +31,8 @@
    青龙D-X/TestAutomation
    青龙D-X/WuhanReach
    青龙D-X/BluePrint
+   青龙D-X/Zerocopy
+   青龙D-X/XbyWire
 
 
 .. toctree::
