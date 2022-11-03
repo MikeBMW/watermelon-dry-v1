@@ -34,6 +34,7 @@
    青龙D-X/Zerocopy
    青龙D-X/XbyWire
    青龙D-X/Doc
+   青龙D-X/FSD
 
 
 .. toctree::
