@@ -36,6 +36,7 @@
    青龙D-X/Doc
    青龙D-X/FSD
    青龙D-X/IMU
+   青龙D-X/FreeRtos
 
 
 .. toctree::
