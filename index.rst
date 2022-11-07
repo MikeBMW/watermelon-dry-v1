@@ -35,6 +35,7 @@
    青龙D-X/XbyWire
    青龙D-X/Doc
    青龙D-X/FSD
+   青龙D-X/IMU
 
 
 .. toctree::

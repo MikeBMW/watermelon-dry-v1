@@ -80,3 +80,36 @@ https://tier4.jp/en/products/
 .. image:: /images/fsd14.png
 .. image:: /images/fsd15.png
 
+Autosar 流程
+-----------------------------------------------------------------------------------------
+
+.. image:: /images/autosar1.png
+.. image:: /images/autosar2.png
+.. image:: /images/autosar3.png
+.. image:: /images/autosar4.png
+.. image:: /images/autosar5.png
+.. image:: /images/autosar6.png
+.. image:: /images/autosar7.png
+
+ODD 流程
+-----------------------------------------------------------------------------------------
+
+https://zhuanlan.zhihu.com/p/404393482
+
+.. image:: /images/ODD1.png
+
+Autoware
+-----------------------------------------------------------------------------------------
+
+https://gitlab.com/ApexAI/autowareclass2020/-/blob/master/lectures/05_Architectures/Part_2.pdf#modal-confirm-fork-webide
+
+https://tier4.jp/en/products/
+
+https://autowarefoundation.gitlab.io/autoware.auto/AutowareAuto/avpdemo.html
+
+https://gitlab.com/autowarefoundation/autoware-foundation/-/wikis/home
+
+.. image:: /images/autoware16.png
+.. image:: /images/autoware17.png
+
+

@@ -53,3 +53,6 @@ dds
 .. image:: /images/DDS14.png
 
 https://www.youtube.com/watch?v=uQmd3iGikzc
+
+* DDS 是全局数据模型，需要更高一层，定义数据相互之间的链接。这个模型应该是由Arxml来定义；
+* 还应该定义QoS，根据ODD,进行数据流的切换；

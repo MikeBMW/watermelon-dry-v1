@@ -46,3 +46,11 @@ Tips for linux
 * 兼容现有架构，应用层复用。
 * 做事情有方向，有导航；
 * 技术评审（曹贺，田雷/周鑫，李楠/尹小科,）
+
+.. image:: /images/autoLabel_1.png
+.. image:: /images/autoLabel_2.png
+.. image:: /images/autoLabel_3.png
+.. image:: /images/autoLabel_4.png
+.. image:: /images/autoLabel_5.png
+.. image:: /images/autoLabel_6.png
+
